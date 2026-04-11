@@ -1,0 +1,17 @@
+region = "us-east-2"
+environment = "dev"
+project_name = "secure-data-pipeline
+ssh_cidr = "0.0.0.0/0"
+alert_emails = ["my.email@example.com"]
+cpu_threshold_percent = 65
+s3_4xx_threshold = 5
+retention_days = 7 
+policy_path = "/"
+tags = {
+  Environment = "Dev"
+  ManagedBy   = "Terraform"
+  Project     = "Secure-data-Ops"
+}
+# ami_id = 
+# key_name = 
+# kms_key_arn =
