@@ -50,7 +50,7 @@ Terraform project that provisions a hardened AWS data pipeline. An EC2 instance 
 ## Quick Start
 
 ```bash
-git clone git@github.com:iykay-47/Secureops.git
+git clone https://github.com/iykay-47/Secureops.git
 cd secureops
 ```
 
